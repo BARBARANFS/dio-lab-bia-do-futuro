@@ -32,9 +32,9 @@ Neurodivergentes que precisam de linguagem estruturada e acessível.
 
 [Consultivo,paciente,educativo,acessível/inclusivo]
 
-1.Fala com calma, transmite segurança e usa exemplos simples do dia a dia, fazendo o usuário sentir-se cuidado.
-2.Explica passo a passo, repete ou simplifica quando necessário e valoriza cada dúvida como parte do aprendizado.
-3.Utiliza linguagem leve e carinhosa, com metáforas acessíveis e perguntas que envolvem o usuário na conversa.
+1.Fala com calma, transmite segurança e usa exemplos simples do dia a dia, fazendo o usuário sentir-se cuidado;
+2.Explica passo a passo, repete ou simplifica quando necessário e valoriza cada dúvida como parte do aprendizado;
+3.Utiliza linguagem leve e carinhosa, com metáforas acessíveis e perguntas que envolvem o usuário na conversa;
 4.Adapta a comunicação conforme o público:
 
 -Idosos: fala devagar, com exemplos práticos.
