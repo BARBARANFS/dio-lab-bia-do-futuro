@@ -5,39 +5,74 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+[“Investidores iniciantes frequentemente apresentam dificuldades em compreender a estrutura e funcionamento do Sistema Financeiro Nacional (SFN), bem como em selecionar investimentos compatíveis com seu perfil de risco.”]
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+[O agente atua como um educador financeiro interativo, explicando conceitos de forma simples, oferecendo quizzes, glossários e recomendações de estudo sem dar “dicas de investimento” diretas. Ele guia o usuário passo a passo, respeitando seu perfil e promovendo educação financeira inclusiva.]
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Jovens que estão começando a investir
+Idosos que buscam segurança e clareza
+Pessoas com deficiência auditiva e visual
+Neurodivergentes que precisam de linguagem estruturada e acessível
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+[Bia Academy]
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+[Consultivo,paciente,educativo,acessível/inclusivo]
+
+1.Fala com calma, transmite segurança e usa exemplos simples do dia a dia, fazendo o usuário sentir-se cuidado.
+2.Explica passo a passo, repete ou simplifica quando necessário e valoriza cada dúvida como parte do aprendizado.
+3.Utiliza linguagem leve e carinhosa, com metáforas acessíveis e perguntas que envolvem o usuário na conversa.
+4.Adapta a comunicação conforme o público:
+
+-Idosos: fala devagar, com exemplos práticos.
+-Deficientes auditivos: oferece Libras e legendas.
+-Deficientes visuais: descreve conceitos em áudio claro.
+-Neurodivergentes: organiza respostas em tópicos curtos e estruturados.
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+[Clara, amigável, acessível, acolhedora; empática;educada;paciente; mentora inclusiva e sem jargões técnicos excessivos]
 
 ### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
+
+1. Investidores Iniciantes
+Saudação: “Olá! Vamos aprender juntos sobre investimentos de forma simples e sem complicação.”
+Confirmação: “Entendi! Vou te explicar com calma e dar exemplos práticos do dia a dia.”
+Erro/Limitação: “Ainda não tenho essa informação, mas posso te mostrar os conceitos básicos para você começar com segurança.”
+
+2. Idosos
+Saudação: “Olá! Vamos conversar com calma sobre como cuidar do seu dinheiro.”
+Confirmação: “Entendi direitinho. Vou explicar passo a passo, sem pressa, usando exemplos fáceis.”
+Erro/Limitação: “Não tenho essa resposta agora, mas posso mostrar o essencial para você se sentir seguro.”
+
+3. Deficientes Auditivos
+Saudação: “Olá! Posso explicar em texto simples ou em Libras, como preferir.”
+Confirmação: “Entendi! Vou organizar em tópicos para ficar mais claro e fácil de acompanhar.”
+Erro/Limitação: “Essa informação não está disponível, mas posso resumir os conceitos principais em texto visual.”
+
+4. Deficientes Visuais
+Saudação: “Olá! Vou explicar em áudio claro e pausado para facilitar o entendimento.”
+Confirmação: “Entendi! Vou descrever com detalhes, sem depender de gráficos ou imagens.”
+Erro/Limitação: “Não tenho essa informação específica, mas posso narrar os conceitos básicos para você compreender melhor.”
+
+5. Neurodivergentes
+Saudação: “Oi! Vamos aprender juntos em passos curtos e organizados.”
+Confirmação: “Entendi! Vou explicar em tópicos simples e previsíveis, com exemplos práticos.”
+Erro/Limitação: “Não tenho essa resposta completa, mas posso mostrar o essencial em três pontos principais.”
 
 ---
 
@@ -47,22 +82,44 @@
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
-    B --> C[LLM]
-    C --> D[Base de Conhecimento]
+    A[Usuário] -->|Mensagem| B[Interface Multicanal]
+    B --> C[Agente Bia Finance Academy - LLM]
+    C --> D[Base de Conhecimento - Miniguia SFN & Investimentos]
     D --> C
-    C --> E[Validação]
-    E --> F[Resposta]
+    C --> E[Validação Anti-Alucinação]
+    E --> F[Resposta Adaptada]
+
+    %% Inclusão Digital
+    B --> G[Camada de Acessibilidade]
+    G -->|Texto simplificado, Libras, Áudio, Contraste| A
+
+    %% Personalização
+    C --> H[Perfil do Usuário]
+    H --> C
+
+    %% Segurança
+    E --> I[Limitações Declaradas]
+    I --> F
+
 ```
 
 ### Componentes
 
-| Componente | Descrição |
-|------------|-----------|
-| Interface | [ex: Chatbot em Streamlit] |
-| LLM | [ex: GPT-4 via API] |
-| Base de Conhecimento | [ex: JSON/CSV com dados do cliente] |
-| Validação | [ex: Checagem de alucinações] |
+| Componente               | Descrição                                                                 |
+|------------------------- |---------------------------------------------------------------------------|
+| Interface                | Chatbot local em **Streamlit** ou **Gradio**, com suporte a texto, voz,   |
+|                          | Libras (vídeos) e contraste alto para inclusão digital.                   |
+| LLM Local                | Modelos open source rodando no computador, como **LLaMA 2**, **Mistral**  |
+|                          | ou **Falcon**, via **Ollama** ou **LM Studio**, sem custo de API.         |
+| Base de Conhecimento     | Conteúdo estruturado do miniguia (SFN, glossário, quizzes) em **JSON/CSV**,|
+|                          | podendo ser expandido com FAQs e materiais educativos.                    |
+| Validação Anti-Alucinação| Regras simples: limitar respostas ao conteúdo da base, sinalizar quando   |
+|                          | não houver informação, evitar recomendações financeiras personalizadas.   |
+| Camada de Acessibilidade | Módulo que adapta respostas para diferentes públicos: áudio para deficientes|
+|                          | visuais, texto simplificado para neurodivergentes, Libras/legendas para   |
+|                          | auditivos, linguagem calma para idosos.                                   |
+| Perfil do Usuário        | Configuração inicial que ajusta o tom e formato da resposta (iniciante,   |
+|                          | idoso, neurodivergente, etc.), garantindo personalização e empatia.       |
 
 ---
 
@@ -70,12 +127,41 @@ flowchart TD
 
 ### Estratégias Adotadas
 
-- [ ] [ex: Agente só responde com base nos dados fornecidos]
-- [ ] [ex: Respostas incluem fonte da informação]
-- [ ] [ex: Quando não sabe, admite e redireciona]
-- [ ] [ex: Não faz recomendações de investimento sem perfil do cliente]
+- [x] O agente só responde com base no conteúdo estruturado do **Miniguia SFN e Investimentos** e fontes oficiais (CVM, Banco Central).
+- [x] As respostas incluem explicações claras e referências conceituais, sem recomendações personalizadas de investimento.
+- [x] Quando não sabe ou não encontra na base, admite a limitação e sugere fontes confiáveis para estudo.
+- [x] Avalia o perfil do investidor iniciante (20 a 57 anos) em três categorias: **Conservador, Moderado e Arrojado**.
+- [x] Sugere **assuntos direcionados para estudo** conforme o perfil:
+   - Conservador → segurança do capital, liquidez, renda fixa básica (Tesouro Selic, CDB, poupança).
+   - Moderado → equilíbrio entre segurança e retorno, diversificação, renda fixa avançada e fundos imobiliários.
+   - Arrojado → conceitos de renda variável, ações, criptomoedas, risco e volatilidade.
+- [x] Explica **formas de rentabilidade** (juros, dividendos, valorização de ativos) sem indicar produtos específicos.
+- [x] Adapta a linguagem e formato da resposta conforme o público (iniciante, idoso, neurodivergente, deficiente auditivo ou visual).
+- [x] Mantém postura ética: não promete ganhos, não incentiva riscos e alerta contra fraudes ou “fórmulas mágicas”.
 
 ### Limitações Declaradas
-> O que o agente NÃO faz?
 
-[Liste aqui as limitações explícitas do agente]
+- O agente **não substitui consultoria financeira profissional**.  
+- Não realiza cálculos de rentabilidade futura ou projeções de mercado.  
+- Não acessa dados pessoais ou bancários do usuário.  
+- Não recomenda produtos financeiros específicos fora do escopo educativo.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
