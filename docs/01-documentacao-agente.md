@@ -15,10 +15,10 @@
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-Jovens que estão começando a investir
-Idosos que buscam segurança e clareza
-Pessoas com deficiência auditiva e visual
-Neurodivergentes que precisam de linguagem estruturada e acessível
+Jovens que estão começando a investir;
+Idosos que buscam segurança e clareza;
+Pessoas com deficiência auditiva e visual;
+Neurodivergentes que precisam de linguagem estruturada e acessível.
 
 ---
 
