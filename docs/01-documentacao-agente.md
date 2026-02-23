@@ -83,24 +83,58 @@ Erro/Limitação: “Não tenho essa resposta completa, mas posso mostrar o esse
 
 ```mermaid
 flowchart TD
-    A[Usuário] -->|Mensagem| B[Interface Multicanal]
-    B --> C[Agente Bia Finance Academy - LLM]
-    C --> D[Base de Conhecimento - Miniguia SFN & Investimentos]
+    A[Usuário] -->|Mensagem| B[Interface Local]
+    B --> C[Agente Bia Academy - LLM Local]
+    C --> D[Base de Conhecimento - Miniguia SFN]
     D --> C
     C --> E[Validação Anti-Alucinação]
-    E --> F[Resposta Adaptada]
+    E --> F[Resposta Inclusiva e Adaptada]
 
-    %% Inclusão Digital
+    %% Etapa de Acessibilidade
     B --> G[Camada de Acessibilidade]
     G -->|Texto simplificado, Libras, Áudio, Contraste| A
 
-    %% Personalização
-    C --> H[Perfil do Usuário]
-    H --> C
+    %% Etapa de Adaptação de Perfil
+    C --> H[Identificação de Perfil do Investidor]
+    H --> I[Adaptação da Linguagem e Conteúdo]
+    I --> F
 
-    %% Segurança
+    %% Perfis Considerados
+    H --> J[Jovens Iniciantes]
+    H --> K[Idosos]
+    H --> L[Deficientes Auditivos]
+    H --> M[Deficientes Visuais]
+    H --> N[Neurodivergentes]
+
+    %% Direcionamento Educativo
+    J --> I
+    K --> I
+    L --> I
+    M --> I
+    N --> I
+
+%% Segurança
     E --> I[Limitações Declaradas]
     I --> F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```
 
