@@ -1,1 +1,85 @@
+[
+  {
+    "id": "jogo_001",
+    "tipo_jogo": "Historia Interativa + Metáforas",
+    "descricao": "O usuário acompanha a história de Maria e precisa escolher metáforas que representam conceitos financeiros.",
+    "cenario": "Maria quer aprender a investir de forma segura e acessível. Ao longo da história, ela enfrenta situações e precisa escolher metáforas que explicam conceitos financeiros.",
+    "etapas": [
+      {
+        "pergunta": "Maria quer montar uma reserva de emergência. Qual metáfora representa melhor esse conceito?",
+        "opcoes": [
+          "Guardar dinheiro em um cofre",
+          "Plantar sementes e esperar a colheita",
+          "Comprar apenas uma fruta no mercado"
+        ],
+        "resposta_correta": "Guardar dinheiro em um cofre",
+        "feedback": {
+          "correto": "Exato! O cofre simboliza segurança e liquidez, como o Tesouro Selic.",
+          "incorreto": "Não exatamente. O cofre é a metáfora correta para reserva segura e líquida."
+        }
+      },
+      {
+        "pergunta": "Maria precisa entender liquidez. Qual metáfora explica melhor esse conceito?",
+        "opcoes": [
+          "Água corrente disponível sempre",
+          "Árvore que demora anos para crescer",
+          "Pedra guardada em um baú"
+        ],
+        "resposta_correta": "Água corrente disponível sempre",
+        "feedback": {
+          "correto": "Correto! Liquidez é como água corrente: você pode acessar quando precisar.",
+          "incorreto": "Não exatamente. Liquidez significa acesso rápido, como água disponível."
+        }
+      },
+      {
+        "pergunta": "Maria quer aprender sobre risco. Qual metáfora representa melhor esse conceito?",
+        "opcoes": [
+          "Andar em uma ponte firme",
+          "Andar em uma corda bamba",
+          "Guardar dinheiro em um cofre"
+        ],
+        "resposta_correta": "Andar em uma corda bamba",
+        "feedback": {
+          "correto": "Exato! Risco é como andar em uma corda bamba: pode dar certo, mas há chance de cair.",
+          "incorreto": "Não exatamente. A corda bamba é a metáfora correta para risco."
+        }
+      },
+      {
+        "pergunta": "Maria ouviu falar de diversificação. Qual metáfora representa melhor esse conceito?",
+        "opcoes": [
+          "Não colocar todos os ovos na mesma cesta",
+          "Guardar dinheiro em um único bolso",
+          "Comprar apenas uma fruta no mercado"
+        ],
+        "resposta_correta": "Não colocar todos os ovos na mesma cesta",
+        "feedback": {
+          "correto": "Correto! Diversificação significa distribuir investimentos para reduzir riscos.",
+          "incorreto": "Não exatamente. A metáfora dos ovos em várias cestas é a correta."
+        }
+      },
+      {
+        "pergunta": "Maria quer saber sobre impostos. Qual metáfora explica melhor a isenção de IR em alguns investimentos?",
+        "opcoes": [
+          "Dinheiro limpo sem desconto",
+          "Dinheiro guardado em um cofre",
+          "Árvore que cresce sem regar"
+        ],
+        "resposta_correta": "Dinheiro limpo sem desconto",
+        "feedback": {
+          "correto": "Exato! Isenção de IR é como receber dinheiro limpo, sem desconto.",
+          "incorreto": "Não exatamente. A metáfora correta é o dinheiro limpo sem desconto."
+        }
+      }
+    ],
+    "publico_alvo": {
+      "jovem": "História gamificada com cores vibrantes.",
+      "idoso": "Narrativa simples e pausada, com metáforas do cotidiano.",
+      "visual": "Versão narrada em áudio com imagens mentais.",
+      "auditivo": "Texto simplificado + Libras.",
+      "neurodivergente": "Etapas curtas e previsíveis, com tópicos claros."
+    },
+    "formato": "história interativa com escolhas metafóricas",
+    "pontuacao": 50
+  }
+]
 
