@@ -1,1 +1,68 @@
+[
+  {
+    "id": "quiz_001",
+    "tema": "Liquidez",
+    "pergunta": "Qual investimento tem maior liquidez?",
+    "opcoes": [
+      "Tesouro Selic",
+      "LCI com carência de 90 dias",
+      "Ações"
+    ],
+    "resposta_correta": "Tesouro Selic",
+    "publico_alvo": ["jovem", "idoso", "neurodivergente"],
+    "formato": "botões grandes com ícones"
+  },
+  {
+    "id": "quiz_002",
+    "tema": "Risco",
+    "pergunta": "Qual desses investimentos apresenta maior risco?",
+    "opcoes": [
+      "CDB com liquidez diária",
+      "Tesouro IPCA",
+      "Criptomoedas"
+    ],
+    "resposta_correta": "Criptomoedas",
+    "publico_alvo": ["jovem", "auditivo", "visual"],
+    "formato": "texto + Libras ou áudio"
+  },
+  {
+    "id": "quiz_003",
+    "tema": "Perfil do Investidor",
+    "pergunta": "Qual perfil busca segurança e baixa volatilidade?",
+    "opcoes": [
+      "Conservador",
+      "Moderado",
+      "Arrojado"
+    ],
+    "resposta_correta": "Conservador",
+    "publico_alvo": ["idoso", "neurodivergente"],
+    "formato": "tópicos curtos e estruturados"
+  },
+  {
+    "id": "quiz_004",
+    "tema": "Tipos de Investimentos",
+    "pergunta": "Qual desses é garantido pelo Fundo Garantidor de Créditos (FGC)?",
+    "opcoes": [
+      "CDB",
+      "Tesouro Direto",
+      "Fundos Imobiliários"
+    ],
+    "resposta_correta": "CDB",
+    "publico_alvo": ["todos"],
+    "formato": "cards coloridos com feedback visual"
+  },
+  {
+    "id": "quiz_005",
+    "tema": "Tipos de Investimentos",
+    "pergunta": "Qual investimento protege contra a inflação?",
+    "opcoes": [
+      "Tesouro IPCA",
+      "LCI",
+      "CDB Prefixado"
+    ],
+    "resposta_correta": "Tesouro IPCA",
+    "publico_alvo": ["jovem", "idoso"],
+    "formato": "texto simples + comparação prática"
+  }
+]
 
