@@ -3,66 +3,154 @@
     "id": "quiz_001",
     "tema": "Liquidez",
     "pergunta": "Qual investimento tem maior liquidez?",
-    "opcoes": [
-      "Tesouro Selic",
-      "LCI com carência de 90 dias",
-      "Ações"
-    ],
+    "opcoes": ["Tesouro Selic", "LCI com carência de 90 dias", "Ações"],
     "resposta_correta": "Tesouro Selic",
-    "publico_alvo": ["jovem", "idoso", "neurodivergente"],
-    "formato": "botões grandes com ícones"
+    "feedback": {
+      "correto": "Exato! O Tesouro Selic pode ser resgatado a qualquer momento, ideal para reserva de emergência.",
+      "incorreto": "Não exatamente. LCI e Ações podem ter prazos ou riscos maiores. O Tesouro Selic é o mais líquido."
+    },
+    "publico_alvo": {
+      "jovem": "Use cores vibrantes e gamificação.",
+      "idoso": "Botões grandes e explicação simples.",
+      "visual": "Versão narrada em áudio.",
+      "auditivo": "Texto simplificado + Libras.",
+      "neurodivergente": "Tópicos curtos e previsíveis."
+    },
+    "formato": "cards interativos com ícones",
+    "pontuacao": 10
   },
   {
     "id": "quiz_002",
     "tema": "Risco",
     "pergunta": "Qual desses investimentos apresenta maior risco?",
-    "opcoes": [
-      "CDB com liquidez diária",
-      "Tesouro IPCA",
-      "Criptomoedas"
-    ],
+    "opcoes": ["CDB com liquidez diária", "Tesouro IPCA", "Criptomoedas"],
     "resposta_correta": "Criptomoedas",
-    "publico_alvo": ["jovem", "auditivo", "visual"],
-    "formato": "texto + Libras ou áudio"
+    "feedback": {
+      "correto": "Correto! Criptomoedas têm alta volatilidade e podem variar muito em pouco tempo.",
+      "incorreto": "Não é isso. CDB e Tesouro IPCA são mais estáveis. Criptomoedas são as mais arriscadas."
+    },
+    "publico_alvo": {
+      "jovem": "Explicar com exemplos de apps e jogos.",
+      "idoso": "Comparar com poupança para facilitar entendimento.",
+      "visual": "Explicação narrada com metáforas simples.",
+      "auditivo": "Texto curto + ícone de risco.",
+      "neurodivergente": "Listar riscos em tópicos claros."
+    },
+    "formato": "botões grandes com feedback visual",
+    "pontuacao": 15
   },
   {
     "id": "quiz_003",
     "tema": "Perfil do Investidor",
     "pergunta": "Qual perfil busca segurança e baixa volatilidade?",
-    "opcoes": [
-      "Conservador",
-      "Moderado",
-      "Arrojado"
-    ],
+    "opcoes": ["Conservador", "Moderado", "Arrojado"],
     "resposta_correta": "Conservador",
-    "publico_alvo": ["idoso", "neurodivergente"],
-    "formato": "tópicos curtos e estruturados"
+    "feedback": {
+      "correto": "Isso mesmo! O perfil conservador prioriza segurança e liquidez.",
+      "incorreto": "Não exatamente. O perfil conservador é o que busca segurança e baixa volatilidade."
+    },
+    "publico_alvo": {
+      "jovem": "Explicar com metáfora de videogame: 'nível fácil'.",
+      "idoso": "Explicação simples: 'como a poupança, mas melhor'.",
+      "visual": "Narrar com exemplos cotidianos.",
+      "auditivo": "Texto simplificado + Libras.",
+      "neurodivergente": "Tópicos curtos e diretos."
+    },
+    "formato": "quiz em lista",
+    "pontuacao": 20
   },
   {
     "id": "quiz_004",
     "tema": "Tipos de Investimentos",
     "pergunta": "Qual desses é garantido pelo Fundo Garantidor de Créditos (FGC)?",
-    "opcoes": [
-      "CDB",
-      "Tesouro Direto",
-      "Fundos Imobiliários"
-    ],
+    "opcoes": ["CDB", "Tesouro Direto", "Fundos Imobiliários"],
     "resposta_correta": "CDB",
-    "publico_alvo": ["todos"],
-    "formato": "cards coloridos com feedback visual"
+    "feedback": {
+      "correto": "Correto! O CDB é protegido pelo FGC até R$ 250 mil por CPF.",
+      "incorreto": "Não exatamente. Apenas CDB, LCI e LCA têm proteção do FGC."
+    },
+    "publico_alvo": {
+      "jovem": "Mostrar ícone de escudo para segurança.",
+      "idoso": "Explicar como 'seguro extra do banco'.",
+      "visual": "Narrar com metáfora de proteção.",
+      "auditivo": "Texto simplificado + Libras.",
+      "neurodivergente": "Explicar em tópicos curtos."
+    },
+    "formato": "cards coloridos",
+    "pontuacao": 10
   },
   {
     "id": "quiz_005",
-    "tema": "Tipos de Investimentos",
-    "pergunta": "Qual investimento protege contra a inflação?",
-    "opcoes": [
-      "Tesouro IPCA",
-      "LCI",
-      "CDB Prefixado"
-    ],
-    "resposta_correta": "Tesouro IPCA",
-    "publico_alvo": ["jovem", "idoso"],
-    "formato": "texto simples + comparação prática"
-  }
-]
-
+    "tema": "Diversificação",
+    "pergunta": "Por que é importante diversificar investimentos?",
+    "opcoes": ["Reduz risco", "Aumenta retorno", "Ambos"],
+    "resposta_correta": "Ambos",
+    "feedback": {
+      "correto": "Exato! Diversificar reduz risco e pode aumentar retorno.",
+      "incorreto": "Não exatamente. Diversificação ajuda tanto na segurança quanto na rentabilidade."
+    },
+    "publico_alvo": {
+      "jovem": "Metáfora: 'não colocar todos os ovos na mesma cesta'.",
+      "idoso": "Explicação simples com exemplos cotidianos.",
+      "visual": "Narrar com metáfora de cesta de frutas.",
+      "auditivo": "Texto simplificado + Libras.",
+      "neurodivergente": "Explicar em tópicos curtos."
+    },
+    "formato": "quiz com metáforas visuais",
+    "pontuacao": 15
+  },
+  {
+    "id": "quiz_006",
+    "tema": "Reserva de Emergência",
+    "pergunta": "Qual investimento é mais indicado para reserva de emergência?",
+    "opcoes": ["Tesouro Selic", "Ações", "Fundos Imobiliários"],
+    "resposta_correta": "Tesouro Selic",
+    "feedback": {
+      "correto": "Correto! O Tesouro Selic é seguro e tem liquidez diária.",
+      "incorreto": "Não exatamente. Ações e FIIs têm risco e volatilidade maiores."
+    },
+    "publico_alvo": {
+      "jovem": "Explicar como 'dinheiro guardado para imprevistos'.",
+      "idoso": "Comparar com poupança, mas melhor rendimento.",
+      "visual": "Narrar com metáfora de cofre.",
+      "auditivo": "Texto simplificado + Libras.",
+      "neurodivergente": "Explicar em tópicos curtos."
+    },
+    "formato": "botões grandes",
+    "pontuacao": 20
+  },
+  {
+    "id": "quiz_007",
+    "tema": "Renda Variável",
+    "pergunta": "Qual característica define a renda variável?",
+    "opcoes": ["Retorno fixo", "Retorno incerto", "Garantia do governo"],
+    "resposta_correta": "Retorno incerto",
+    "feedback": {
+      "correto": "Exato! A renda variável não tem retorno garantido, depende do mercado.",
+      "incorreto": "Não exatamente. Apenas renda fixa tem previsibilidade."
+    },
+    "publico_alvo": {
+      "jovem": "Explicar com exemplo de bolsa de valores.",
+      "idoso": "Comparar com 'plantar e colher sem saber quanto'.",
+      "visual": "Narrar com metáfora de colheita.",
+      "auditivo": "Texto simplificado + Libras.",
+      "neurodivergente": "Explicar em tópicos curtos."
+    },
+    "formato": "quiz com ícones de gráfico",
+    "pontuacao": 15
+  },
+  {
+    "id": "quiz_008",
+    "tema": "Impostos",
+    "pergunta": "Qual investimento é isento de Imposto de Renda?",
+    "opcoes": ["LCI/LCA", "CDB", "Tesouro Direto"],
+    "resposta_correta": "LCI/LCA",
+    "feedback": {
+      "correto": "Correto! LCI e LCA são isentos de IR para pessoa física.",
+      "incorreto": "Não exatamente. Apenas LCI e LCA têm essa vantagem."
+    },
+    "publico_alvo": {
+      "jovem": "Mostrar ícone de 'livre de impostos'.",
+      "idoso": "Explicar como 'não precisa pagar imposto'.",
+      "visual": "Narrar com metáfora de 'dinheiro limpo'.",
+      "auditivo": "Texto simplificado + Libras.",
