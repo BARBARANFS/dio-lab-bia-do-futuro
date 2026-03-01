@@ -6,7 +6,6 @@ Esta pasta contém o código do seu agente financeiro.
 
 ```
 src/
-src/
 ├── app.py              # Interface principal (Streamlit/Gradio) que consome a API
 ├── api.py              # API local (FastAPI/Flask) expondo endpoints
 ├── agente.py           # Lógica do agente (consultas, quizzes, jogos inclusivos)
