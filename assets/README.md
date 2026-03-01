@@ -1,6 +1,6 @@
 # Assets
 
-
+1- Estrutura da Pasta Assets
 ├── diagramas/
 │   └── arquitetura.md       # Diagrama em ASCII/Markdown + versão em imagem
 ├── screenshots/
@@ -16,8 +16,7 @@
 
 ----------------------------------------
 
-
-1- Diagrama de Arquitetura
+2- Diagrama de Arquitetura
 +---------+    +---------+    +---------+    +-----------+    +---------+    +-----------+
 | Usuário | -> | app.py  | -> | api.py  | -> | agente.py | -> |  data/  | -> |  assets/  |
 +---------+    | UI      |    | API     |    | Lógica    |    | Arquivos|    | Diagramas |
@@ -27,8 +26,7 @@
                                                                              +-----------+
 ----------------------------------------
 
-
-2- Diagrama de Fluxo (Quiz vs Jogo Inclusivo)
+3- Diagrama de Fluxo (Quiz vs Jogo Inclusivo)
 +---------+    +-------------------+    +-------------------+    +-------------------+
 | Usuário | -> | Identificação     | -> | Perfil/Público    | -> | Decisão do Agente |
 +---------+    | (app.py + api.py) |    | alvo detectado    |    | Quiz ou Jogo      |
@@ -51,7 +49,7 @@
 
 ----------------------------------------
 
-3- Mockup em ASCII (quiz_mockup.md)
+4- Mockup em ASCII (quiz_mockup.md)
 ----------------------------------------
 |   BIA Academy Finance Inclusiva       |
 ----------------------------------------
@@ -65,7 +63,7 @@ Feedback: "O Tesouro Selic pode ser resgatado a qualquer momento."
 Pontuação: +10
 ----------------------------------------
 
-4- Mockup em ASCII (jogo_mockup.md)
+5- Mockup em ASCII (jogo_mockup.md)
 ----------------------------------------
 | História Interativa: Maria investindo |
 ----------------------------------------
@@ -79,3 +77,4 @@ Botão: Escolher
 Feedback: "O cofre simboliza segurança e liquidez, como o Tesouro Selic."
 Pontuação: +10
 ----------------------------------------
+
