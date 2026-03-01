@@ -6,9 +6,11 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
+| `RESUMO ESTRUTURADO SFN E INVESTIMENTOS.md` | MD |Doc. base da pesquisa, estruturando toda a lógica dos jogos inclusivos. |
+| `GLOSSÁRIO DE CONCEITOS.md` | MD | Suporte didático para simplificar termos técnicos |
+| `Quizzes_investimentos.json` | JSON | Quizzes com feedback explicativo adequados ao perfil |
+| `Jogos_inclusivos.json` | JSON | Jogos narrativos e metáforas adaptadas a diferentes públicos (jovens, idosos, pessoas com deficiência visual/auditiva e           neurodivergentes).|
+|`historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
 | `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
 
 > [!TIP]
@@ -20,8 +22,16 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+Foram introduzidos para expandir o escopo do projeto idealizado e dando continuação prática ao Miniguia_SFN_Investimentos do 1º Desafio_DIO:
 
+RESUMO ESTRUTURADO SFN E INVESTIMENTOS.md: base da pesquisa.
+GLOSSÁRIO DE CONCEITOS.md: suporte didático 
+Quizzes_investimentos.json: método para inclusão e ensino didático e dinâmico focando cada perfil
+Jogos_inclusivos.json: jogos narrativos e metáforas adaptadas a diferentes públicos (jovens, idosos, pessoas com deficiência visual/auditiva e neurodivergentes)
+
+Foram mantidos sem alterações:
+* historico_atendimento.csv
+* transacoes.csv
 ---
 
 ## Estratégia de Integração
@@ -29,12 +39,16 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+[Os arquivos JSON/Markdown criados e os CSV originais são carregados no início da sessão. E, o agente acessa dinamicamente os dados conforme o perfil/público-alvo do usuário].
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
+[Os dados não são inseridos diretamente no system prompt.São consultados dinamicamente:
+
+Markdowns → suporte conceitual e explicações simplificadas.
+JSONs → quizzes e jogos inclusivos.
+CSV → contextualização e análise de gastos.]
 
 ---
 
