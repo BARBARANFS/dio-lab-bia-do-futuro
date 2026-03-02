@@ -178,8 +178,9 @@ Exemplo prático do agente em ação:
 ---
 
 📌 Conclusão
+
 A BIA Academy Finance é mais que um chatbot: é uma mentora inclusiva que democratiza o acesso à educação financeira.
 
 Combinando IA generativa, acessibilidade e empatia, o projeto transforma o aprendizado sobre investimentos em uma experiência simples, segura e adaptada a cada perfil.
 
-Nosso objetivo é claro: empoderar pessoas de diferentes idades e condições a compreenderem o Sistema Financeiro Nacional e cuidarem melhor do seu dinheiro.
+O objetivo é claro: empoderar pessoas de diferentes idades e condições a compreenderem o Sistema Financeiro Nacional e cuidarem melhor do seu dinheiro.
