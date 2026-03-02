@@ -77,12 +77,12 @@ A **BIA Academy Finance** atua como **Mentora Inclusiva Educativa**, oferecendo:
 
 ## 🧪 Exemplos de Interação
 
-| Público               | Pergunta                                  | Resposta                                                                 |
-|---------------------  |-----------------------------------------  |--------------------------------------------------------------------------|
-| **Jovem Iniciante**   | "O que é reserva de emergência?"          | É como um cofre para imprevistos. O Tesouro Selic é indicado porque tem liquidez diária. Quer tentar um quiz para fixar esse conceito? |
-| **Idoso**             | "Como proteger meu dinheiro da inflação?" | Inflação é quando os preços sobem. O Tesouro IPCA acompanha essa variação, protegendo seu dinheiro. É como plantar sementes que crescem junto com a inflação. |
-| **Deficiente Visual** | "Quais investimentos têm liquidez?"       | Narrado: Opção 1: Tesouro Selic. Opção 2: LCI com carência de 90 dias. Opção 3: Ações. **Resposta correta:** Tesouro Selic. |
-| **Neurodivergente**   | "Quero aprender sobre diversificação."    | 1. Diversificação significa não colocar todo o dinheiro em um único investimento.<br>2. É como não colocar todos os ovos na mesma cesta.<br>3. Assim você reduz riscos e aumenta segurança. |
+| Público                    | Pergunta                                 | Resposta                                                                 |
+|----------------------------|------------------------------------------|--------------------------------------------------------------------------|
+| 👩‍🎓 **Jovem Iniciante**    | "O que é reserva de emergência?"          | É como um cofre para imprevistos. O Tesouro Selic é indicado porque tem liquidez diária. Quer tentar um quiz para fixar esse conceito? |
+| 👴 **Idoso**              | "Como proteger meu dinheiro da inflação?" | Inflação é quando os preços sobem. O Tesouro IPCA acompanha essa variação, protegendo seu dinheiro. É como plantar sementes que crescem junto com a inflação.  |
+| 🎧 **Deficiente Visual**  | "Quais investimentos têm liquidez?"       | Narrado: Opção 1: Tesouro Selic. Opção 2: LCI com carência de 90 dias. Opção 3: Ações. **Resposta correta:** Tesouro Selic. |
+| 🧩 **Neurodivergente**    | "Quero aprender sobre diversificação."   | 1. Diversificação significa não colocar todo o dinheiro em um único investimento.<br>2. É como não colocar todos os ovos na mesma cesta.<br>3. Assim você reduz riscos e aumenta segurança. |
 
 ---
 
