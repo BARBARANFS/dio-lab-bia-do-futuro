@@ -194,6 +194,3 @@ Combinando **IA generativa, acessibilidade e empatia**, o projeto transforma o a
 
 Nosso objetivo é claro: **empoderar pessoas de diferentes idades e condições a compreenderem o Sistema Financeiro Nacional e cuidarem melhor do seu dinheiro**.
 ```
-
-
-
