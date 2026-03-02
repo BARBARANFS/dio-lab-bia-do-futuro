@@ -181,6 +181,6 @@ A **BIA Academy Finance** é mais que um chatbot: é uma **mentora inclusiva e e
 
 Combinando **IA generativa, acessibilidade e empatia**, o projeto transforma o aprendizado sobre investimentos em uma experiência **simples, segura e adaptada a cada perfil**.  
 
-O objetivo é claro: **empoderar pessoas de diferentes idades e condições a compreenderem o Sistema Financeiro Nacional-Investimentos e aassim,cuidarem melhor do seu dinheiro**.
+O objetivo é claro: **empoderar pessoas de diferentes idades e condições a compreenderem o Sistema Financeiro Nacional-Investimentos e assim,cuidarem melhor do seu dinheiro**.
 
 ---
