@@ -1,4 +1,4 @@
-### RESUMO ESTRUTURADO DO SFN E INVESTIMENTOS PARA INICANTES (#miniguia)
+### RESUMO ESTRUTURADO DO SFN E INVESTIMENTOS PARA INICIANTES (#miniguia)
 
 *  **Sumário**
 1.	Introdução
@@ -327,5 +327,6 @@ Alerta: Desconfie de "fórmulas mágicas" ou lucros muito acima da média; milag
 *  **Os materiais da CVM e do Módulo 06 são distribuídos sob a licença *Creative Commons Atribuição – Uso não comercial .Compilação baseada em documentos da CVM, Renato Freire, Edgar Abreu e Lucas Silva.
 
 *  **Autor:** *
+
 
 *  ** Esse projeto foi desenvolvido por Barbara Freitas como parte do desafio da DIO (Bootcamp Bradesco - GenAI & Dados).
