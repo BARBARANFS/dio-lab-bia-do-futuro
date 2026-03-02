@@ -10,7 +10,7 @@
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[O agente atua como um educador financeiro interativo, explicando conceitos de forma simples, oferecendo quizzes, glossários e recomendações de estudo sem dar “dicas de investimento” diretas. Ele guia o usuário passo a passo, respeitando seu perfil e promovendo educação financeira inclusiva.]
+[A agente atua como um educadora financeira interativa, explicando conceitos de forma simples, oferecendo quizzes, glossários e recomendações de estudo sem dar “dicas de investimento” diretas. Ele guia o usuário passo a passo, respeitando seu perfil e promovendo educação financeira inclusiva.]
 
 ### Público-Alvo
 > Quem vai usar esse agente?
