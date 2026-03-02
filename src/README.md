@@ -15,7 +15,7 @@ Investidores iniciantes e públicos diversos enfrentam barreiras como:
 ---
 
 ## ✅ A Solução
-A **BIA Academy Finance** atua como **mentora inclusiva Educativa**, oferecendo:
+A **BIA Academy Finance** atua como **Mentora Inclusiva Educativa**, oferecendo:
 - Explicações simples e acessíveis.  
 - Quizzes interativos com feedback explicativo.  
 - Jogos narrativos adaptados a diferentes perfis.  
