@@ -146,34 +146,16 @@ streamlit run src/app.py
 ```
 
 -
-# 📽️ Pitch
+# 📽️ Pitch Visual (3 minutos)
 
-### 🎤 Apresentação (3 minutos)
-
-#### 1. O Problema (30 seg)
-Investidores iniciantes e públicos diversos enfrentam barreiras como:  
-- Dificuldade em compreender conceitos financeiros básicos.  
-- Falta de acessibilidade em conteúdos tradicionais.  
-- Risco de exclusão financeira por ausência de linguagem adaptada.  
-
-#### 2. A Solução (1 min)
-A **BIA Academy Finance** atua como **mentora inclusiva**, oferecendo:  
-- Explicações simples e acessíveis.  
-- Quizzes interativos com feedback explicativo.  
-- Jogos narrativos adaptados a diferentes perfis.  
-- Linguagem inclusiva para jovens, idosos, deficientes visuais/auditivos e neurodivergentes.  
-
-#### 3. Demonstração (1 min)
-Exemplo prático do agente em ação:  
-- **Jovem iniciante** → "O que é reserva de emergência?" → metáfora simples + quiz.  
-- **Idoso** → "Como proteger meu dinheiro da inflação?" → explicação clara + metáfora de sementes.  
-- **Deficiente visual** → "Quais investimentos têm liquidez?" → resposta narrada com opções.  
-- **Neurodivergente** → "Quero aprender sobre diversificação." → resposta em etapas curtas e estruturadas.  
-
-#### 4. Diferencial e Impacto (30 seg)
-- **Diferencial:** Inclusividade (linguagem adaptada, metáforas, jogos, quizzes).  
-- **Impacto:** Democratizar a educação financeira, tornando conceitos de investimentos acessíveis e seguros para todos os públicos.  
-
+| Etapa              | Tempo      | Destaque                                                                 |
+|--------------------|------------|--------------------------------------------------------------------------|
+| ❌ Problema        | 30 seg     | Educação financeira pouco acessível, linguagem técnica, exclusão social. |
+| ✅ Solução         | 1 min      | BIA Academy Finance como **mentora inclusiva educativa**.                |
+| 👥 Público         | —          | Jovens, idosos, deficientes visuais/auditivos, neurodivergentes.         |
+| 🎯 Demonstração    | 1 min      | Exemplos práticos de interação adaptados a cada público.                 |
+| 🌍 Diferencial/Impacto | 30 seg | Inclusividade, acessibilidade e postura ética. Democratizar o acesso e empoderar pessoas a cuidar do próprio dinheiro. |
+  
 ---
 
 # 📌 Conclusão
