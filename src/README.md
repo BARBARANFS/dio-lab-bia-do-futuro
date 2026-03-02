@@ -1,18 +1,8 @@
-# 🌟 BIA Academy Finance
+# 📚 BIA Academy Finance
 
-## 📌 Resumo Executivo
+## 📌 Resumo 
 A **BIA Academy Finance** é uma educadora financeira inclusiva que transforma o **Miniguia SFN Investimentos** em uma experiência prática e acessível.  
 Nosso agente de IA ajuda **jovens iniciantes, idosos, pessoas com deficiência visual/auditiva e neurodivergentes** a compreender conceitos financeiros e de investimentos com **clareza, empatia e segurança**.
-
-### 🚀 O que entregamos
-- Explicações simples e sem jargões técnicos.  
-- Quizzes interativos com feedback explicativo.  
-- Jogos narrativos com metáforas adaptadas a cada público.  
-- Linguagem inclusiva em texto, áudio e Libras.  
-- Postura ética: **não recomenda produtos financeiros**, apenas educa e orienta.  
-
-### 🎯 Impacto
-Democratizar a **educação financeira inclusiva** no Brasil, tornando conceitos de investimentos **simples, acessíveis e seguros** para todos os públicos.
 
 ---
 
@@ -46,7 +36,7 @@ A **BIA Academy Finance** atua como **mentora inclusiva**, oferecendo:
 ## 🎭 Persona e Tom de Voz
 - Nome: **BIA Academy**  
 - Personalidade: consultiva, paciente, educativa e acessível.  
-- Tom: claro, amigável, acolhedor e sem jargões técnicos.  
+- Tom: claro, acolhedor e sem jargões técnicos.  
 - Comunicação adaptada conforme público-alvo.  
 
 ---
@@ -115,11 +105,13 @@ A **BIA Academy Finance** atua como **mentora inclusiva**, oferecendo:
 - Não recomenda produtos financeiros específicos.  
 - Sempre alerta contra fraudes e promessas de ganhos fáceis.  
 
+---
 
 # 💻 Código da Aplicação
 
-## Estrutura Sugerida
+## Estrutura de Pastas
 
+```
 src/
 ├── app.py              # Interface principal (Streamlit/Gradio)
 ├── api.py              # API local (FastAPI/Flask)
@@ -133,17 +125,20 @@ data/
 ├── Jogos_inclusivos.json
 ├── historico_atendimento.csv
 └── transacoes.csv
+```
 
+---
 
 ## Exemplo de requirements.txt
 
+```
 streamlit
 fastapi
 uvicorn
 requests
 pandas
 python-dotenv
-
+```
 
 ---
 
@@ -158,50 +153,47 @@ uvicorn src.api:app --reload
 
 # Em outro terminal, rodar a interface
 streamlit run src/app.py
-
+```
 
 ---
-📽️ Pitch
-🎤 Apresentação (3 minutos)
-1. O Problema (30 seg)
-Investidores iniciantes e públicos diversos enfrentam barreiras como:
 
-Dificuldade em compreender conceitos financeiros básicos.
+# 📽️ Pitch
 
-Falta de acessibilidade em conteúdos tradicionais.
+### 🎤 Apresentação (3 minutos)
 
-Risco de exclusão financeira por ausência de linguagem adaptada.
+#### 1. O Problema (30 seg)
+Investidores iniciantes e públicos diversos enfrentam barreiras como:  
+- Dificuldade em compreender conceitos financeiros básicos.  
+- Falta de acessibilidade em conteúdos tradicionais.  
+- Risco de exclusão financeira por ausência de linguagem adaptada.  
 
-2. A Solução (1 min)
-A BIA Academy Finance atua como mentora inclusiva, oferecendo:
+#### 2. A Solução (1 min)
+A **BIA Academy Finance** atua como **mentora inclusiva**, oferecendo:  
+- Explicações simples e acessíveis.  
+- Quizzes interativos com feedback explicativo.  
+- Jogos narrativos adaptados a diferentes perfis.  
+- Linguagem inclusiva para jovens, idosos, deficientes visuais/auditivos e neurodivergentes.  
 
-Explicações simples e acessíveis.
+#### 3. Demonstração (1 min)
+Exemplo prático do agente em ação:  
+- **Jovem iniciante** → "O que é reserva de emergência?" → metáfora simples + quiz.  
+- **Idoso** → "Como proteger meu dinheiro da inflação?" → explicação clara + metáfora de sementes.  
+- **Deficiente visual** → "Quais investimentos têm liquidez?" → resposta narrada com opções.  
+- **Neurodivergente** → "Quero aprender sobre diversificação." → resposta em etapas curtas e estruturadas.  
 
-Quizzes interativos com feedback explicativo.
+#### 4. Diferencial e Impacto (30 seg)
+- **Diferencial:** Inclusividade (linguagem adaptada, metáforas, jogos, quizzes).  
+- **Impacto:** Democratizar a educação financeira, tornando conceitos de investimentos acessíveis e seguros para todos os públicos.  
 
-Jogos narrativos adaptados a diferentes perfis.
+---
 
-Linguagem inclusiva para jovens, idosos, deficientes visuais/auditivos e neurodivergentes.
+# 📌 Conclusão
+A **BIA Academy Finance** é mais que um chatbot: é uma **mentora inclusiva** que democratiza o acesso à educação financeira.  
 
-3. Demonstração (1 min)
-Exemplo prático do agente em ação:
+Combinando **IA generativa, acessibilidade e empatia**, o projeto transforma o aprendizado sobre investimentos em uma experiência **simples, segura e adaptada a cada perfil**.  
 
-Jovem iniciante → "O que é reserva de emergência?" → metáfora simples + quiz.
+Nosso objetivo é claro: **empoderar pessoas de diferentes idades e condições a compreenderem o Sistema Financeiro Nacional e cuidarem melhor do seu dinheiro**.
+```
 
-Idoso → "Como proteger meu dinheiro da inflação?" → explicação clara + metáfora de sementes.
 
-Deficiente visual → "Quais investimentos têm liquidez?" → resposta narrada com opções.
 
-Neurodivergente → "Quero aprender sobre diversificação." → resposta em etapas curtas e estruturadas.
-
-4. Diferencial e Impacto (30 seg)
-Diferencial: Inclusividade (linguagem adaptada, metáforas, jogos, quizzes).
-
-Impacto: Democratizar a educação financeira, tornando conceitos de investimentos acessíveis e seguros para todos os públicos.
-
-📌 Conclusão
-A BIA Academy Finance é mais que um chatbot: é uma mentora inclusiva que democratiza o acesso à educação financeira.
-
-Combinando IA generativa, acessibilidade e empatia, o projeto transforma o aprendizado sobre investimentos em uma experiência simples, segura e adaptada a cada perfil.
-
-Nosso objetivo é claro: empoderar pessoas de diferentes idades e condições a compreenderem o Sistema Financeiro Nacional e cuidarem melhor do seu dinheiro.
