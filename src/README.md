@@ -159,8 +159,6 @@ uvicorn src.api:app --reload
 # Em outro terminal, rodar a interface
 streamlit run src/app.py
 
----
-
 
 ---
 
