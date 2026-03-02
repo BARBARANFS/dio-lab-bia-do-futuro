@@ -22,12 +22,12 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-Foram introduzidos para expandir o escopo do projeto idealizado e dando continuação prática ao Miniguia_SFN_Investimentos do 1º Desafio_DIO:
+Foram introduzidos novos dados para expandir o escopo do projeto idealizado e dando continuação prática ao Miniguia_SFN_Investimentos do 1º Desafio_DIO, no qual é a base deste projeto. 
 
-RESUMO ESTRUTURADO SFN E INVESTIMENTOS.md: base da pesquisa.
-GLOSSÁRIO DE CONCEITOS.md: suporte didático 
-Quizzes_investimentos.json: método para inclusão e ensino didático e dinâmico focando cada perfil
-Jogos_inclusivos.json: jogos narrativos e metáforas adaptadas a diferentes públicos (jovens, idosos, pessoas com deficiência visual/auditiva e neurodivergentes)
+* RESUMO ESTRUTURADO SFN E INVESTIMENTOS.md: base da pesquisa.
+* GLOSSÁRIO DE CONCEITOS.md: suporte didático 
+* Quizzes_investimentos.json: método para inclusão e ensino didático e dinâmico focando cada perfil
+* Jogos_inclusivos.json: jogos narrativos e metáforas adaptadas a diferentes públicos (jovens, idosos, pessoas com deficiência visual/auditiva e neurodivergentes)
 
 Foram mantidos sem alterações:
 * historico_atendimento.csv
@@ -44,11 +44,18 @@ Foram mantidos sem alterações:
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Os dados não são inseridos diretamente no system prompt.São consultados dinamicamente:
+[Os dados não são inseridos diretamente no system prompt.São consultados dinamicamente]:
 
-Markdowns → suporte conceitual e explicações simplificadas.
-JSONs → quizzes e jogos inclusivos.
-CSV → contextualização e análise de gastos.]
+### Exemplo de como funciona
+
+Usuário: "O que é liquidez?"
+
+Agente consulta:
+- GLOSSÁRIO DE CONCEITOS.md → definição de liquidez
+- RESUMO ESTRUTURADO SFN E INVESTIMENTOS.md → reforço conceitual
+
+Resposta do agente:
+"Liquidez é a facilidade de transformar um investimento em dinheiro disponível. Por exemplo, o Tesouro Selic tem liquidez diária, o que significa que você pode resgatar o valor a qualquer momento."
 
 ---
 
@@ -57,13 +64,30 @@ CSV → contextualização e análise de gastos.]
 > Mostre um exemplo de como os dados são formatados para o agente.
 
 ```
-Dados do Cliente:
+### Dados do Cliente
 - Nome: João Silva
 - Perfil: Moderado
 - Saldo disponível: R$ 5.000
 
-Últimas transações:
+### Últimas Transações (transacoes.csv)
 - 01/11: Supermercado - R$ 450
 - 03/11: Streaming - R$ 55
-...
+- 05/11: Farmácia - R$ 120
+
+### Conceito (GLOSSÁRIO DE CONCEITOS.md)
+- Liquidez: Facilidade de transformar um investimento em dinheiro disponível.
+
+### Quiz (Quizzes_investimentos.json)
+Pergunta: Qual investimento tem liquidez diária?
+Opções:  
+A) Tesouro Selic  
+B) LCI com carência de 90 dias  
+C) Ações  
+Resposta correta: A) Tesouro Selic  
+Feedback: O Tesouro Selic permite resgate diário, ideal para reserva de emergência.
+
+### Jogo Narrativo (Jogos_inclusivos.json)
+Contexto: Idoso pergunta sobre reserva de emergência.  
+Resposta adaptada: "Imagine um cofre para imprevistos. O Tesouro Selic funciona como esse cofre, pois você pode acessar o dinheiro a qualquer momento."
+
 ```
