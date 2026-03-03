@@ -19,7 +19,7 @@ A **BIA Academy Finance** atua como **Mentora Inclusiva Educativa**, oferecendo:
 - Explicações simples e acessíveis.  
 - Quizzes interativos com feedback explicativo.  
 - Jogos narrativos adaptados a diferentes perfis.  
-- Comunicação inclusiva para jovens, idosos, deficientes visuais/auditivos e neurodivergentes.  
+- Comunicação inclusiva para inciantes, idosos, deficientes visuais/auditivos e neurodivergentes.  
 - Postura ética: **não recomenda produtos financeiros**, apenas educa e orienta.  
 
 ---
@@ -55,7 +55,7 @@ A **BIA Academy Finance** atua como **Mentora Inclusiva Educativa**, oferecendo:
 
 | Arquivo | Formato | Utilização |
 |---------|---------|------------|
-| `RESUMO ESTRUTURADO SFN E INVESTIMENTOS.md` | MD | Documento base da pesquisa. |
+| `MINIGUIA_SFN_INVESTIMENTOS.md` | MD | Documento base da pesquisa. |
 | `GLOSSÁRIO DE CONCEITOS.md` | MD | Simplificação de termos técnicos. |
 | `Quizzes_investimentos.json` | JSON | Quizzes com feedback explicativo. |
 | `Jogos_inclusivos.json` | JSON | Jogos narrativos adaptados a públicos diversos. |
@@ -79,7 +79,7 @@ A **BIA Academy Finance** atua como **Mentora Inclusiva Educativa**, oferecendo:
 
 | Público              | Pergunta                                | Resposta                                                                 |
 |----------------------|-----------------------------------------|--------------------------------------------------------------------------|
-| 👩‍🎓 **Jovem Iniciante** | "O que é reserva de emergência?"        | É como um cofre para imprevistos. O Tesouro Selic é indicado porque tem liquidez diária. Quer tentar um quiz para fixar esse conceito? |
+| 👩‍🎓 **Investidores Iniciante** | "O que é reserva de emergência?" | É como um cofre para imprevistos. O Tesouro Selic é indicado porque tem liquidez diária. Quer tentar um quiz para fixar esse conceito? |
 | 👴 **Idoso**            | "Como proteger meu dinheiro da inflação?"| Inflação é quando os preços sobem. O Tesouro IPCA acompanha essa variação, protegendo seu dinheiro. É como plantar sementes que crescem junto com a inflação. |
 | 🎧 **Deficiente Visual** | "Quais investimentos têm liquidez?"   | Narrado: Opção 1: Tesouro Selic. Opção 2: LCI com carência de 90 dias. Opção 3: Ações. **Resposta correta:** Tesouro Selic. |
 | 👐 **Deficiente Auditivo** | "Qual investimento protege contra a inflação?" | O Tesouro IPCA protege contra a inflação, pois acompanha o índice de preços. Isso significa que seu dinheiro mantém o poder de compra. |
@@ -118,7 +118,7 @@ src/
 └── requirements.txt    # Dependências
 
 data/
-├── MINIGUIA_SFN_E_INVESTIMENTOS.md
+├── MINIGUIA_SFN_INVESTIMENTOS.md
 ├── GLOSSÁRIO DE CONCEITOS.md
 ├── Quizzes_investimentos.json
 ├── Jogos_inclusivos.json
