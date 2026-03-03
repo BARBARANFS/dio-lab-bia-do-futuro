@@ -2,7 +2,7 @@
 
 ## Como Avaliar o Agente
 
-A avaliação foi realizada exclusivamente por meio de **testes estruturados**, definindo perguntas e respostas esperadas com base no conteúdo do `MINIGUIA_SFN_INVESTIMENTOS.md`.
+A avaliação foi realizada exclusivamente por meio de **testes estruturados**, definindo perguntas e respostas esperadas com base no conteúdo do `MINIGUIA_SFN_E_INVESTIMENTOS.md`.
 
 ---
 
