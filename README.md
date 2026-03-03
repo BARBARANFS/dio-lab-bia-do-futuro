@@ -97,6 +97,8 @@ A **BIA Academy Finance** atua como **Mentora Inclusiva Educativa**, oferecendo:
 
 ---
 
+## Aplicação do Código
+
 ## 📂 Estrutura de Pastas
 
 ```plaintext
