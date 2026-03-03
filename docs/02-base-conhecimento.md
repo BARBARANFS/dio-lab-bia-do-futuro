@@ -19,7 +19,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-Foram introduzidos novos dados para expandir o escopo do projeto idealizado e dando continuação prática ao Miniguia_SFN_E_Investimentos do 1º Desafio_DIO, no qual é a base deste projeto. 
+Foram introduzidos novos dados para expandir o escopo do projeto idealizado e assim, dando continuidade prática ao Miniguia_SFN_E_Investimentos, projeto desenvolviso no Notebook LM, no qual foi o primeiro Desafio_DIO no bootcamp Bradesco - GenAI & Dados, e logo, é a base deste projeto. 
 
 * MINIGUIA_SFN_E_INVESTIMENTOS.md: base da pesquisa.
 * GLOSSÁRIO DE CONCEITOS.md: suporte didático 
