@@ -15,3 +15,31 @@ src/
 │   └── user_profile.py  # Estrutura de perfil do usuário (investidor iniciante, idoso, etc.)
 └── requirements.txt     # Dependências do projeto
 
+
+
+## Exemplo de requirements.txt
+
+```
+streamlit
+fastapi
+uvicorn
+requests
+pandas
+python-dotenv
+```
+
+---
+
+## ⚙️ Como Rodar
+
+```bash
+# Instalar dependências
+pip install -r requirements.txt
+
+# Rodar API local
+uvicorn src.api:app --reload
+
+# Em outro terminal, rodar a interface
+streamlit run src/app.py
+```
+
