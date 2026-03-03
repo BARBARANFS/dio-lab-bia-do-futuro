@@ -25,7 +25,7 @@ Neurodivergentes que precisam de linguagem estruturada e acessível.
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Bia Academy]
+Bia Academy
 
 ### Personalidade
 > Como o agente se comporta? 
