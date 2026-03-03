@@ -12,6 +12,6 @@ src/
 │   └── helpers.py       # Funções genéricas de apoio
 ├── models/              # Modelos de IA ou classes
 │   ├── llm_connector.py # Conexão com LLM (local ou API)
-│   └── user_profile.py  # Estrutura de perfil do usuário (jovem, idoso, etc.)
+│   └── user_profile.py  # Estrutura de perfil do usuário (investidor iniciante, idoso, etc.)
 └── requirements.txt     # Dependências do projeto
 
