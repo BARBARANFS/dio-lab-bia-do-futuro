@@ -25,7 +25,7 @@ A **BIA Academy Finance** atua como **Mentora Inclusiva Educativa**, oferecendo:
 ---
 
 ## 👥 Público-Alvo
-- **Jovens iniciantes** (20 a 57 anos).  
+- **Inestidores iniciantes** (20 a 57 anos).  
 - **Idosos** que buscam segurança e clareza.  
 - **Deficientes visuais** (respostas narradas).  
 - **Deficientes auditivos** (texto simples/Libras).  
@@ -97,27 +97,58 @@ A **BIA Academy Finance** atua como **Mentora Inclusiva Educativa**, oferecendo:
 
 ---
 
-# 💻 Código da Aplicação
+## 📂 Estrutura de Pastas
 
-## Estrutura de Pastas
-
-```
+```plaintext
 src/
 ├── app.py              # Interface principal (Streamlit/Gradio)
 ├── api.py              # API local (FastAPI/Flask)
 ├── agente.py           # Lógica do agente (consultas, quizzes, jogos inclusivos)
-├── config.py           # Configurações
+├── config.py           # Configurações gerais
+├── prompts.py          # Prompts do agente
+├── accessibility.py    # Funções de acessibilidade (voz, Libras, contraste)
+├── knowledge_base.py   # Conexão com a base de conhecimento
+├── utils/              # Funções auxiliares
+│   ├── data_loader.py  # Carregamento e tratamento dos dados
+│   ├── validators.py   # Validações e segurança anti-alucinação
+│   └── helpers.py      # Funções genéricas
+├── models/             # Modelos e classes
+│   ├── llm_connector.py # Conexão com LLM
+│   └── user_profile.py # Estrutura de perfil do usuário
 └── requirements.txt    # Dependências
+
 data/
-├── RESUMO ESTRUTURADO SFN E INVESTIMENTOS.md
+├── MINIGUIA_SFN_E_INVESTIMENTOS.md
 ├── GLOSSÁRIO DE CONCEITOS.md
 ├── Quizzes_investimentos.json
 ├── Jogos_inclusivos.json
 ├── historico_atendimento.csv
 └── transacoes.csv
+
+docs/
+├── 01-documentacao-agente.md
+├── 02-base-conhecimento.md
+├── 03-prompts.md
+├── 04-metricas.md
+├── 05-pitch.md
+└── roadmap.md
+
+assets/
+├── diagramas/
+│   └── arquitetura.md
+├── screenshots/
+│   ├── quiz_tela.png
+│   ├── jogo_tela.png
+│   └── api_endpoint.png
+├── mockups/
+│   ├── quiz_mockup.md
+│   └── jogo_mockup.md
+└── imagens_readme/
+    ├── fluxo.png
+    └── inclusao.png
+
 ```
 
----
 
 ## Exemplo de requirements.txt
 
