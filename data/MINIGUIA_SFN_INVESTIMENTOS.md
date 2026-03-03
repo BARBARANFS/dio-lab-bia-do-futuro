@@ -1,4 +1,4 @@
-### RESUMO ESTRUTURADO DO MINIGUIA_SFN_INVESTIMENTOS PARA INICIANTES (#miniguia)
+### MINIGUIA_SFN_INVESTIMENTOS PARA INICIANTES (#miniguia)
 
 *  **Sumário**
 1.	Introdução
@@ -330,4 +330,5 @@ Alerta: Desconfie de "fórmulas mágicas" ou lucros muito acima da média; milag
 
 
 *  ** Esse projeto foi desenvolvido por Barbara Freitas como parte do desafio da DIO (Bootcamp Bradesco - GenAI & Dados).
+
 
