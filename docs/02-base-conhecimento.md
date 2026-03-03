@@ -6,15 +6,12 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
-| `RESUMO ESTRUTURADO SFN E INVESTIMENTOS.md` | MD |Doc. base da pesquisa, estruturando toda a lógica dos jogos inclusivos. |
+| `MINIGUIA_SFN_E_INVESTIMENTOS.md` | MD |Doc. base da pesquisa, estruturando toda a lógica dos jogos inclusivos. |
 | `GLOSSÁRIO DE CONCEITOS.md` | MD | Suporte didático para simplificar termos técnicos |
 | `Quizzes_investimentos.json` | JSON | Quizzes com feedback explicativo adequados ao perfil |
 | `Jogos_inclusivos.json` | JSON | Jogos narrativos e metáforas adaptadas a diferentes públicos (jovens, idosos, pessoas com deficiência visual/auditiva e           neurodivergentes).|
 |`historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
 | `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
-
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
 
 ---
 
@@ -22,9 +19,9 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-Foram introduzidos novos dados para expandir o escopo do projeto idealizado e dando continuação prática ao Miniguia_SFN_Investimentos do 1º Desafio_DIO, no qual é a base deste projeto. 
+Foram introduzidos novos dados para expandir o escopo do projeto idealizado e dando continuação prática ao Miniguia_SFN_E_Investimentos do 1º Desafio_DIO, no qual é a base deste projeto. 
 
-* RESUMO ESTRUTURADO SFN E INVESTIMENTOS.md: base da pesquisa.
+* MINIGUIA_SFN_E_INVESTIMENTOS.md: base da pesquisa.
 * GLOSSÁRIO DE CONCEITOS.md: suporte didático 
 * Quizzes_investimentos.json: método para inclusão e ensino didático e dinâmico focando cada perfil
 * Jogos_inclusivos.json: jogos narrativos e metáforas adaptadas a diferentes públicos (jovens, idosos, pessoas com deficiência visual/auditiva e neurodivergentes)
@@ -39,12 +36,12 @@ Foram mantidos sem alterações:
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-[Os arquivos JSON/Markdown criados e os CSV originais são carregados no início da sessão. E, o agente acessa dinamicamente os dados conforme o perfil/público-alvo do usuário].
+Os arquivos JSON/Markdown criados e os CSV originais são carregados no início da sessão. E, o agente acessa dinamicamente os dados conforme o perfil/público-alvo do usuário.
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Os dados não são inseridos diretamente no system prompt.São consultados dinamicamente]:
+Os dados não são inseridos diretamente no system prompt. Eles são consultados dinamicamente:
 
 ### Exemplo de como funciona
 
@@ -52,7 +49,7 @@ Usuário: "O que é liquidez?"
 
 Agente consulta:
 - GLOSSÁRIO DE CONCEITOS.md → definição de liquidez
-- RESUMO ESTRUTURADO SFN E INVESTIMENTOS.md → reforço conceitual
+- MINIGUIA_SFN_E_INVESTIMENTOS.md → reforço conceitual
 
 Resposta do agente:
 "Liquidez é a facilidade de transformar um investimento em dinheiro disponível. Por exemplo, o Tesouro Selic tem liquidez diária, o que significa que você pode resgatar o valor a qualquer momento."
